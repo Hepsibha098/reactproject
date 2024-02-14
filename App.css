@@ -1,0 +1,80 @@
+/* App.css */
+
+.App {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+   
+  }
+  
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .failure-view {
+    text-align: center;
+  }
+  
+  .failure-view img {
+    width: 300px;
+  }
+  
+  .list-container {
+    border: 5px solid red;
+    border-radius:5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width:200px;
+    height:500px;
+   
+    
+  }
+  .sub-list{
+    background-color: chartreuse;
+    display: flex;
+  }
+  
+  .list-container div {
+    margin-bottom: 5px;
+  }
+  
+  .list-container input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .list-creation-view {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    width:200px;
+    height:100%;
+  
+  }
+  
+  .list-creation-view button {
+    margin-right: 10px;
+    background-color: coral;
+  }
+  
+  .list-creation-view button:last-child {
+    margin-right: 0;
+    background-color: blueviolet;
+  }
+  .button{
+    background-color: dodgerblue;
+  }
+.head{
+  text-align: center;
+  
+}
+.head button{
+  background-color:dodgerblue;
+  color: white;
+  box-shadow: none;
+  height: 40px;
+  width:150px;
+  border-radius: 10px;
+}
